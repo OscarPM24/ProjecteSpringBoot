@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.example.demo.bean.Libro;
 import com.example.demo.bean.Usuario;
 //import com.example.demo.repository.BaseDatos;
-import com.example.demo.repository.BaseDatos2;
-import com.example.demo.repository.BaseDatos3;
+//import com.example.demo.repository.BaseDatos2;
+//import com.example.demo.repository.BaseDatos3;
 import com.example.demo.repository.BaseDatos3Service;
 
 @Controller
@@ -95,11 +95,3 @@ public class Controlador {
 		return "consulta";
 	}
 }
-/*
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
-spring.datasource.driverClassName=com.mysql.cj.jdbc.Driver
-spring.datasource.url=jdbc:mysql://localhost:3306/biblioteca_online
-spring.datasource.username=root
-spring.datasource.password=
-*/
